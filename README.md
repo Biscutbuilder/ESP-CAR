@@ -43,3 +43,5 @@ I used [How does a differential work](https://www.youtube.com/watch?v=nC6fsNXdcM
 Big thanks to Ogbugbo technologies youtube channel for their video [ESP NOW Joystick Controlled Servo Transmitter & Receiver Project](http://youtube.com/watch?v=0NG6z2Ef6p0). I used this video to help me learn and code ESP-NOW with a joystick and servos, I re-did some of the code to meet my projects needs.
 
 Another thank you to INOVATRIX's video [How to use Linear Potentiometer with Arduino and control a Servo Motor](https://www.youtube.com/watch?v=TRxRAwCIGew). I used the video to help me use a linear potentiometer in my code that I then integrated with my ESP-NOW code, Intergrated of using a servo like in the video, a BLDC motor will be used.
+
+Thank you to onshape chain drive tutorial.

@@ -2,7 +2,7 @@
 
 
 ## About
-This project will be a rover/car that will be controlled with ESP-NOW (hence the name). One ESP32 will act as a controller, sending inputs from various sensors to the Car, which will have another ESP32 to execute those inputs as commands. This vehicle thingy will use 3 mechanical systems that are used inside of real cars today, those are a differential and a rack and pinion, and finally, 4 chain drives. The differential is for the rear wheels and the rack and pinion is for steering in the front wheels. The chain drives are to lower the wheels down to create ground clearance for the body.
+This project will be a rover/car that will be controlled with ESP-NOW (hence the name). One ESP32 will act as a controller, sending inputs from various sensors to the Car, which will have another ESP32 to execute those inputs as commands. This vehicle thingy will use 3 mechanical systems that are used inside of real cars today, those are a differential and a rack and pinion, and finally, 4 belt drives. The differential is for the rear wheels and the rack and pinion is for steering in the front wheels. The belt drives are to lower the wheels down to create ground clearance for the body.
 
 ## Electronic part break down + BOM info
 The contontroller will have 1 linear potentiometer to control the throttle of the BLDC motor and one joystick to control the steering, and a breadboard to connect everything.The car/rover will also have 1 ESP32 and a breadboard, a ESC and a BLDC motor with a Lipo battery.
@@ -15,6 +15,7 @@ The connectors for the Lipo battery to the ESC are because most Lipo batteries d
 Wires are needed because I kinda have to connect everything together :/
 Finally, 2 ESP32's because this entire project is supposed to use ESP-NOW to run. Its also supposed to be a example of why ESPNOW should be developed more to increase its range to allow for more probes and other projects. Instead of using other alternatives such as Radio which doesn't always work and cost more than 2 ESP32's.
 The BOM is in BOM.csv
+Rubber Bands for the Belt drive, but I have rubber bands, they are still in the BOM but have a needed quantiy of ZERO
 
 ## Mechanical Systems
 The Car will use the following mechanical systems and parts, just like a real car. A differential and a rack and pinion for steering of the car. Below is a image of the differential housing that will contain 3 bevel gears.
@@ -43,5 +44,3 @@ I used [How does a differential work](https://www.youtube.com/watch?v=nC6fsNXdcM
 Big thanks to Ogbugbo technologies youtube channel for their video [ESP NOW Joystick Controlled Servo Transmitter & Receiver Project](http://youtube.com/watch?v=0NG6z2Ef6p0). I used this video to help me learn and code ESP-NOW with a joystick and servos, I re-did some of the code to meet my projects needs.
 
 Another thank you to INOVATRIX's video [How to use Linear Potentiometer with Arduino and control a Servo Motor](https://www.youtube.com/watch?v=TRxRAwCIGew). I used the video to help me use a linear potentiometer in my code that I then integrated with my ESP-NOW code, Intergrated of using a servo like in the video, a BLDC motor will be used.
-
-Thank you to onshape chain drive tutorial.

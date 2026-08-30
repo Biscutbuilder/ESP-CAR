@@ -8,7 +8,11 @@ The contontroller will have 2 linear potentiometers, one to control the throttle
 The vehicle will have a ESP32, a BLDC motor, a ESC and a Li-Pro battery.
 
 ## Mechanical Systems
-The Car will use the following mechanical systems and parts, just like a real car. A differential and a rack and pinion for steering of the car. Suspension for the Car might also be made.
+The Car will use the following mechanical systems and parts, just like a real car. A differential and a rack and pinion for steering of the car. Below is a image of the differential housing that will contain 3 bevel gears.
+<img width="504" height="432" alt="image" text-align="Center" src="https://github.com/user-attachments/assets/3bec2503-2a95-4092-a381-63aefb0a602e" />
+
+
+
 
 ## BOM 
 not done yet

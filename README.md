@@ -16,6 +16,7 @@ Wires are needed because I kinda have to connect everything together :/
 Finally, 2 ESP32's because this entire project is supposed to use ESP-NOW to run. Its also supposed to be a example of why ESPNOW should be developed more to increase its range to allow for more probes and other projects. Instead of using other alternatives such as Radio which doesn't always work and cost more than 2 ESP32's.
 The BOM is in BOM.csv
 Rubber Bands for the Belt drive, but I have rubber bands, they are still in the BOM but have a needed quantiy of ZERO
+I do NOT need a Lipo battery!! I already have one, it is still listen in the bom with a quantity of 0!!!!!
 
 ## Mechanical Systems
 The Car will use the following mechanical systems and parts, just like a real car. A differential and a rack and pinion for steering of the car. Below is a image of the differential housing that will contain 3 bevel gears.

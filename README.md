@@ -26,3 +26,6 @@ Websites and videos used:
 I used [How to make a bevel gear](youtube.com/watch?v=eZJXjRCpf1w&time_continue=2&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dbevel%2Bgear%2Bin%2Bonsahep%2Bturtorial%26rlz%3D1C1CHBD_enUS1045US1046%26oq%3Dbevel%26gs_lcrp%3DEgZjaHJvbWUqBggAEEUY) to learn how to make a bevel gear inside of Onshape
 
 I used [How does a differential work](https://www.youtube.com/watch?v=nC6fsNXdcMQ) to learn how a differential works.
+Big thanks to Ogbugbo technologies youtube channel for their video [ESP NOW Joystick Controlled Servo Transmitter & Receiver Project](http://youtube.com/watch?v=0NG6z2Ef6p0). I used this video to help me learn and code ESP-NOW with a joystick and servos, I re-did some of the code to meet my projects needs.
+
+Another thank you to INOVATRIX's video [How to use Linear Potentiometer with Arduino and control a Servo Motor](https://www.youtube.com/watch?v=TRxRAwCIGew). I used the video to help me use a linear potentiomter in my code that I then intigrated with my ESP-NOW code, Intested of using a servo like in the video, a BLDC motor will be used.
